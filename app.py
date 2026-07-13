@@ -11,9 +11,9 @@ def main():
 
     try:
         result = eval(exp)
-        print(f"O resultado da expressão '{exp}' é: {result}")
+        print(f"the result is '{exp}' é: {result}")
     except Exception as e:
-        print(f"Ocorreu um erro ao processar a expressão: {e}")
+        print(f"an error ocurred while processing the following exp: {e}")
 
 
 if __name__ == "__main__":
